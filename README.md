@@ -16,3 +16,7 @@ An example usage would be:
 
 **Note**
 Shodan limits searches, so if you see no output from it, just create and use a different account.
+ 
+ **TODO**
+- Add options for premium Censys and Shodan users, currently only works for basic users (2 pages for Shodan and might throw errors if exceeds Censys's limit)
+- Tidy up the code, and fix some faults with exception handling and try to warn users of any limits the website has applied on their IP
