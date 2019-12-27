@@ -11,6 +11,8 @@ This code runs on Python3. Additionally these packages are required:
 
 **Usage**
 Run `python3 extract.py` to see which arguments are required, and `python3 extract.py -h` for help on what they are.
+An example usage would be: 
+`python3 extract.py -c US -uC user:pass -uS user:pass -f US -k -p 3`
 
 **Note**
 Shodan limits searches, so if you see no output from it, just create and use a different account.
