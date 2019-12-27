@@ -310,7 +310,7 @@ if __name__ == "__main__":
     parser.add_argument('-f', metavar="folder", action='store', type=str, default="VNC_Screenshots",
                         help='Folder to save to - default VNC_Screenshots)')
     parser.add_argument('-p', metavar="number", action='store', type=int, default="3",
-                        help='Number of pages to parse - default 3)')
+                        help='Number of pages to parse(for censys since Shodan only gives 2 pages by default) - default 3)')
     parser.add_argument('-v', '--verbose', action='store_true',
                         help='Increase verbosity')
     parser.add_argument('-k', '--keep', action='store_true',
